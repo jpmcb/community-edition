@@ -53,6 +53,8 @@ func main() {
 		cmd.CreateCmd,
 		cmd.DeleteCmd,
 		cmd.ListCmd,
+		cmd.MakeVmCmd,
+		cmd.HostagentCmd,
 	)
 	if err := p.Execute(); err != nil {
 		os.Exit(1)
